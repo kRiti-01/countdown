@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/1341063615/photo/indian-durga-goddess-idol-being-made-with-clay-for-hindu-festival-of-navratri.jpg?b=1&s=170667a&w=0&k=20&c=C-8KWYdMCzZOgscQYxNXmzBZVbqzOAOp6ggL4NFRMdY=');
+    background-size: cover;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 4rem;
+      color: rgb(201, 151, 33);
+      margin-top: 1rem;
+     
+}
+.countdown-container {
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: antiquewhite;
+}
+.countdown-el {
+    text-align: center;
+    color: beige;
+}
+ 
+.container-el span{
+    font-size: 1.5 erm;
+}
